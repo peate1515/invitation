@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XIIIème Draft - Ligue Basse-Ville</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+      color: #00ff00;
+      font-family: 'Press Start 2P', cursive;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 2.2em;
+      color: #ff0000;
+      text-shadow: 2px 2px #000;
+      animation: flicker 1.5s infinite alternate;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      font-size: 1.3em;
+      color: #ffffff;
+      margin-bottom: 30px;
+    }
+
+    @keyframes flicker {
+      0% { opacity: 1; }
+      50% { opacity: 0.8; }
+      100% { opacity: 1; }
+    }
+
+    .invitation-text {
+      font-size: 0.9em;
+      color: #ffffff;
+      margin: 20px auto;
+      background: rgba(0, 0, 0, 0.6);
+      display: inline-block;
+      padding: 20px;
+      border: 3px solid #00ff00;
+      border-radius: 15px;
+      max-width: 90%;
+      line-height: 1.6em;
+    }
+
+    .image-container {
+      margin-top: 30px;
+    }
+
+    .image-container img {
+      width: 90%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 15px;
+      border: 3px solid #ff0000;
+      box-shadow: 0 0 20px #ff0000, 0 0 40px #00ff00;
+      transition: transform 0.3s;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 40px #00ff00, 0 0 60px #ff0000;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.7em;
+      color: #666;
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.8em;
+      }
+
+      h2 {
+        font-size: 1.1em;
+      }
+
+      .invitation-text {
+        font-size: 0.85em;
+        padding: 15px;
+      }
+
+      .container {
+        padding: 30px 10px;
+      }
+
+      footer {
+        margin-top: 30px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5em;
+      }
+
+      h2 {
+        font-size: 1em;
+      }
+
+      .invitation-text {
+        font-size: 0.8em;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>⚡ XIIIème Draft ⚡</h1>
+    <h2>de la Ligue Basse-Ville</h2>
+    
+    <div class="invitation-text">
+      En direct de <strong>Limoilou</strong><br><br>
+
+      La <strong>huitième édition</strong> du draft se fera à Limoilou,<br> 
+      au <strong>1515 avenue d'Assise, appartement 2</strong>.<br><br>
+
+      🔥 Ouverture des portes : <strong>16h</strong><br>
+      ⚡ Heure du draft : <strong>17h</strong><br><br>
+
+      Emmène tes feuilles Excel, ton PC, tes notes du dernier Fantasy Baseball Podcast (on vous voit).<br><br>
+
+      Signé : <strong>Le Déluges du Saguenay</strong><br><br>
+
+      Y'aura p't'être des rotteux...<br>
+      Apporte tes boires !
+    </div>
+
+    <div class="image-container">
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/75b8779b-6649-4df6-acde-d574b4c51864/dbc9ks6-fb47d92a-9ae2-4454-83b3-e626caadbfcf.png/v1/fill/w_894,h_894/guy_fieri_by_jeffriedrice_dbc9ks6-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc1Yjg3NzliLTY2NDktNGRmNi1hY2RlLWQ1NzRiNGM1MTg2NFwvZGJjOWtzNi1mYjQ3ZDkyYS05YWUyLTQ0NTQtODNiMy1lNjI2Y2FhZGJmY2YucG5nIiwiaGVpZ2h0IjoiPD0xMDI0Iiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvNzViODc3OWItNjY0OS00ZGY2LWFjZGUtZDU3NGI0YzUxODY0XC9qZWZmcmllZHJpY2UtNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.uZPNlZ2H2zdoTJkNPUTRxm3Qi7IatD7rTtv8jyDPZHM" alt="Guy Fieri par Jeffriedrice sur DeviantArt">
+    </div>
+
+    <footer>
+      © 2025 Ligue Basse-Ville - All Rights Reserved
+    </footer>
+  </div>
+
+</body>
+</html>
